@@ -28,9 +28,9 @@ namespace HelloWorld.Test
         public void TestGreetingsHasNameSuccess()
         {
             HelloWorldMaker helloWorldMaker = new HelloWorldMaker();
-            var result = helloWorldMaker.Greetings("Markus");
+            var result = helloWorldMaker.Greetings("Pascal");
 
-            Assert.IsTrue(result.Contains("Markus"));
+            Assert.IsTrue(result.Contains("Pascal"));
         }
     }
 }
